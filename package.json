@@ -1,0 +1,37 @@
+{
+  "name": "sup-plugin-codeguard",
+  "version": "1.0.0",
+  "description": "Advanced code analysis, security scanning, and quality assessment plugin. Detects errors, security vulnerabilities, performance issues, and best practice violations in your code.",
+  "main": "index.js",
+  "type": "module",
+  "author": "eozdemir23",
+  "license": "ISC",
+  "engines": {
+    "sup": ">=1.4.0",
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "sup-plugin",
+    "code-analysis",
+    "security-scanner",
+    "linter",
+    "quality-assurance",
+    "best-practices",
+    "performance-analysis",
+    "vulnerability-detection"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eozdemir23/sup-plugin-codeguard"
+  },
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "ora": "^9.3.0"
+  },
+  "optionalDependencies": {
+    "openai": "^4.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
